@@ -29,3 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ---
 
 This project follows https://www.c-sharpcorner.com/article/create-registration-and-login-page-using-angular-7-and-web-api/ with some updates to the code to make sure it works. LoginAPI folder contains WebAPI files.
+
+This project does not use token based authentication, therefore someone who knows the full url can still access the other pages. This project allows you to register a user and login as a registered user. 
+
+NOTES
+ - Will have to manually go into db and edit user to IsApproved = 1 and Status =1
